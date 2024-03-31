@@ -1,0 +1,46 @@
+img{
+    float: left;
+    height: 40px;
+    width: 300px;
+}
+
+ #layout .header1{
+    width: auto;
+    height: 40px;
+    background-color: black;
+    float: left;
+    
+}
+#layout .header2{
+  
+    width: auto;
+    height: 40px;
+    background-color: yellow;
+}
+input{
+    margin: 5px;
+    height: 25px;
+    width: 300px;
+ 
+}
+#layout .header2 ul{
+    list-style-type: none;
+    text-align: center;
+}
+#layout .header2 ul li{
+    color: black;
+    display: inline-block;
+    line-height: 40px;
+    padding: 5px;
+    position: relative;
+}
+#layout .header2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+#layout .header2 ul li a:hover{
+    height: 39px;
+    width: 300px;
+    background-color: white;
+    color :black;
+}
