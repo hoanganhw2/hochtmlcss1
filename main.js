@@ -1,0 +1,4 @@
+function myClick()
+{
+    alert("OK");
+}

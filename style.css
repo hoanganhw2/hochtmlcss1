@@ -1,46 +1,60 @@
-img{
-    float: left;
-    height: 40px;
-    width: 300px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
- #layout .header1{
-    width: auto;
-    height: 40px;
-    background-color: black;
-    float: left;
-    
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#layout .header2{
-  
-    width: auto;
-    height: 40px;
-    background-color: yellow;
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: tomato;
 }
-input{
-    margin: 5px;
-    height: 25px;
-    width: 300px;
- 
-}
-#layout .header2 ul{
+#menu ul{
     list-style-type: none;
     text-align: center;
+    background-color: rgb(44, 217, 44);
 }
-#layout .header2 ul li{
+#menu ul li{
+    display: inline-table;
     color: black;
-    display: inline-block;
-    line-height: 40px;
-    padding: 5px;
+    line-height: 45px;
+    width: 150px;
     position: relative;
 }
-#layout .header2 ul li a{
-    color: black;
+#menu ul li a{
+    color: white;
     text-decoration: none;
+    display: block;
 }
-#layout .header2 ul li a:hover{
-    height: 39px;
-    width: 300px;
-    background-color: white;
-    color :black;
+#menu ul li a:hover{
+    background-color: yellow;
+    color: black;
 }
+#menu ul li .menucon{
+    display: none;
+    position: absolute;
+}
+#menu ul li:hover .menucon{
+    display: block;
+}
+#footer {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #838383;
+}
+#conten div{
+    display: flex;
+    justify-content: center;
+   
+}
+#conten div p{
+    display: block;
+    position: absolute;
+    margin-top: 120px;
+    /* right:125px;
+    top: 120px; */
+}
+
